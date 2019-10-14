@@ -1,2 +1,2 @@
 # prolog-萌新入门
-面向小白的prolog入门，大佬们求轻喷qaq
+小白的prolog入门记录，大佬们求轻喷qaq
