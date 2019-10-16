@@ -6,13 +6,18 @@ prolog是是种逻辑式的编程语言，可以用于人工智障的开发（�
 😶课上遇到了这门语言所以开个坑记录下学习进程
 
 首先是prolog 的环境，我用的windows系统下的SWI-Prolog Editor
-SWI-Prolog Editor分成两个界面，分别是
+SWI-Prolog Editor分成两个界面，一个用来编辑关系和规则，一个用来输入和问询。
 
 
-然后在编辑界面中写：
+
+1.关系和规则
+------
+在编辑界面中写：
     friend(mike, el).
     friend(mike, john).
+这两句被称为关系，记录了括号里两个对象的friend关系。
 mike和el是朋友，然后mike和john也是朋友。
+
 那么el和john是不是朋友呢？
 在问询中写
     ?-  friend(mike, el).
