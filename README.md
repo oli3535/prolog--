@@ -3,7 +3,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>prolog-萌新入门</title>
+
 </head>
 <body>
 <div id="wmd-preview" class="wmd-preview"><div class="md-section-divider"></div><div class="md-section-divider"></div><h1 data-anchor-id="n5ka" id="prolog-萌新入门">prolog-萌新入门</h1><p data-anchor-id="s9u1"><code>萌新入门</code> <code>小白</code></p><hr><p data-anchor-id="75dq">小白的prolog入门记录，大佬们求轻喷qaq</p><p data-anchor-id="mv1n">prolog是是种逻辑式的编程语言，可以用于人工智障的开发（划掉）， 如专家系统等</p><p data-anchor-id="seut">😶课上遇到了这门语言所以开个坑记录下学习进程</p><p data-anchor-id="o5q4">首先是prolog 的环境，我用的windows系统下的SWI-Prolog Editor</p><p data-anchor-id="9n5r">SWI-Prolog Editor分成两个界面，一个用来编辑关系和规则，一个用来输入和问询。</p><div class="md-section-divider"></div><h2 data-anchor-id="ybdi" id="1关系和规则">1.关系和规则</h2><p data-anchor-id="yt1p">在编辑界面中写：</p><pre data-anchor-id="epwj"><code>             friend(mike, el).
