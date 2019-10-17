@@ -15,7 +15,7 @@ mike和el是朋友，然后mike和john也是朋友。</p><p data-anchor-id="ut2j
 </code></pre><p data-anchor-id="bfv4">按回车，回复是false.也就是说，el和john不是朋友（ -0- 毕竟条件中没有写el和john是朋友）。 <br>
 那么如果我们这样问:</p><pre data-anchor-id="kie0"><code>             ?- friend(el, mike).
 </code></pre><p data-anchor-id="tvw8">回复会是false。mike和el其实是朋友啊？之所以得到错误的答案，是因为电脑不会把这个关系friend(mike, el)自动翻译成friend(el,mike)。我们可以用下面的语句：</p><pre data-anchor-id="4mub"><code>             friend(X, Y) :- friend(Y,X). //规则1
-</code></pre><p data-anchor-id="y9kh">这是一个规则。电脑会从已有的条件，根据此规则，推理出更多的规则。X和Y都是大写字母，代表变量。 <br>
+</code></pre><p data-anchor-id="y9kh">这是一个规则。电脑会从已有的关系，根据此规则，推理出更多的关系。X和Y都是大写字母，代表变量。 <br>
 这个问题中，friend(mike, el)就会通过规则1自动推理一个friend(el,mike)。 <br>
 再输入就会是true啦。</p></div>
 </body>
